@@ -3,7 +3,15 @@ name = "rs-ltsv2sqlite"
 version = "0.1.0"
 edition = "2024"
 
+description = "Convert LTSV logs to SQLite database"
+license = "Apache-2.0"
+repository = "https://github.com/takanoriyanagitani/rs-ltsv2sqlite"
+homepage = "https://github.com/takanoriyanagitani/rs-ltsv2sqlite"
+documentation = "https://docs.rs/rs-ltsv2sqlite/latest"
+keywords = ["ltsv", "sqlite", "wasi", "convert", "json"]
+
 exclude = [
+  "ltsv2sqlite.wasm",
 ]
 
 [lints.rust]
